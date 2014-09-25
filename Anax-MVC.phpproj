@@ -1,0 +1,888 @@
+"General"
+{
+"CodePage" = "65001"
+"ForceCodePageInAllFiles" = "true"
+"ProjectType" = "local"
+"AutoLoadTemplate" = "%s.php;class.%s.php;"
+"IncludeDirs" = ""
+}
+"Configurations"
+{
+    "Local|PHP 5.3"
+    {
+    }
+    "Staging|PHP 5.3"
+    {
+    }
+    "Production|PHP 5.3"
+    {
+    }
+}
+"Files"
+{
+    ".gitignore"
+    {
+    "ProjRelPath" = "T"
+    }
+    ".scrutinizer.yml"
+    {
+    "ProjRelPath" = "T"
+    }
+    ".travis.yml"
+    {
+    "ProjRelPath" = "T"
+    }
+    "3pp"
+    {
+    "ProjRelPath" = "T"
+    }
+    "3pp\\php-markdown"
+    {
+    "ProjRelPath" = "T"
+    }
+    "3pp\\php-markdown\\composer.json"
+    {
+    "ProjRelPath" = "T"
+    }
+    "3pp\\php-markdown\\License.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "3pp\\php-markdown\\Michelf"
+    {
+    "ProjRelPath" = "T"
+    }
+    "3pp\\php-markdown\\Michelf\\Markdown.inc.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "3pp\\php-markdown\\Michelf\\Markdown.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "3pp\\php-markdown\\Michelf\\MarkdownExtra.inc.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "3pp\\php-markdown\\Michelf\\MarkdownExtra.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "3pp\\php-markdown\\Michelf\\MarkdownInterface.inc.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "3pp\\php-markdown\\Michelf\\MarkdownInterface.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "3pp\\php-markdown\\Readme.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "3pp\\php-markdown\\Readme.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\autoloader.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\ego_functions.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\ego_navbar.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\ego_theme.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\environment.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\error_reporting.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\navbar.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\session.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\text_filter.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\config\\theme.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\content"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\content\\byline.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\content\\ctrlTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\content\\ego_anax.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\content\\kmom01.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\content\\kmom02.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\content\\kmom03.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\content\\kmom04.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\content\\kmom05.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\content\\kmom06.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\content\\kmom07.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\content\\kmoms.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\content\\me.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\src"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\src\\Calendar"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\src\\Calendar\\CCalendar.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\src\\Dice"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\src\\Dice\\CDice.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\src\\Source"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\src\\Source\\CSource.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\src\\Source\\LICENSE.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\src\\Source\\README.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\default"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\default\\article.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\default\\error.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\default\\page.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\dice"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\dice\\index.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\ego"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\ego\\calendar.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\ego\\footer.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\ego\\header.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\ego\\page.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\ego\\page_md.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\ego\\source.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\error"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\error\\403.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\error\\404.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\welcome"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\welcome\\footer.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\welcome\\header.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\welcome\\hello_world.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "app\\view\\welcome\\index.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "composer.json"
+    {
+    "ProjRelPath" = "T"
+    }
+    "index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "LICENSE.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "README.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\autoload.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Content"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Content\\CFileContent.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Content\\CTextFilter.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\DI"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\DI\\CDI.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\DI\\CDIArray.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\DI\\CDIFactoryDefault.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\DI\\CDIFactoryDocumentation.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\DI\\IDI.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\DI\\IInjectionAware.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\DI\\TInjectable.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\DI\\TInjectionAware.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Exception"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Exception.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Exception\\ForbiddenException.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Exception\\InternalServerErrorException.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Exception\\NotFoundException.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Flash"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Flash\\CFlashBasic.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\functions.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\HTMLForm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\HTMLForm\\CFormExample.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\HTMLForm\\FormController.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\HTMLForm\\FormSmallController.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\ISingleton.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Kernel"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Kernel\\CAnax.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Kernel\\CAnaxSingleton.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Loader"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Loader\\CPsr4Autoloader.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Log"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Log\\CLogger.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\MVC"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\MVC\\CApplicationBasic.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\MVC\\CDispatcherBasic.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\MVC\\ErrorController.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\MVC\\TRedirectHelpers.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Navigation"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Navigation\\CNavbar.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Request"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Request\\CRequestBasic.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Response"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Response\\CResponseBasic.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Route"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Route\\CRouteBasic.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Route\\CRouterBasic.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Session"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Session\\CSession.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\TConfigure.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\ThemeEngine"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\ThemeEngine\\CThemeBasic.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\ThemeEngine\\IThemeEngine.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\TSingleton.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Url"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Url\\CUrl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Validate"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\Validate\\CValidate.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\View"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\View\\CViewBasic.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "src\\View\\CViewContainerBasic.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "theme"
+    {
+    "ProjRelPath" = "T"
+    }
+    "theme\\anax-base"
+    {
+    "ProjRelPath" = "T"
+    }
+    "theme\\anax-base\\ego_gat.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "theme\\anax-base\\functions.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "theme\\anax-base\\index.tpl.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\.htaccess"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\404.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\cform.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\config.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\config_with_app.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\dice.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\ego_calendar.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\ego_common.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\ego_navbar.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\ego_source.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\figure.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\fonts"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\fonts\\Montserrat-Regular.ttf"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\fonts\\OpenSans-Regular.ttf"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\form.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\navbar.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\slideshow.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\source.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\css\\style.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\dice.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\dice_app.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\error.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\favicon.ico"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\hello.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\hello_view.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\humans.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\anax.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_arrow.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_bkg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_img_1.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_img_10.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_img_11.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_img_12.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_img_2.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_img_3.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_img_4.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_img_5.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_img_6.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_img_7.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_img_8.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_img_9.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\calendar\\calendar_snap.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\dice-faces.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\ego_anax_logo.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\ego_anax_logo_footer.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\flag_sweden.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\me"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\me\\me-1.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\me\\me-2.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\me\\me-4.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\me\\me-6.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\me\\me_0.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\me\\me_1.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\me\\me_2.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\me\\me_3.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\me\\me_4.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\img\\top_head_bkg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\js\\ego_common.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\js\\jquery-2.1.1.min.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\js\\modernizr.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\js\\slideshow.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\robots.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\sitemap.xml"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\slideshow.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\test_errormessages.php"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}
+"References"
+{
+}

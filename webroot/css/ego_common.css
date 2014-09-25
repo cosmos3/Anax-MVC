@@ -1,0 +1,349 @@
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+html {
+	background:#E9EFF5;
+}
+
+body {
+  margin:0;
+  padding:0;
+  color:#024;
+  overflow-y: scroll;
+}
+
+#top-head {
+	background:#000 url("../img/top_head_bkg.png") top repeat-x;
+	width:100%;
+	height:152px;
+	margin-bottom:-154px;
+	border-bottom:2px solid #088CFF;
+}
+#top-head-fixed {
+	background:#274359;
+	position: fixed;
+	width:100%;
+	top:0;
+	height:42px;
+	border-bottom:2px solid #088CFF;
+	display:none;
+}
+#top-space {
+	position:absolute;
+	background:#2E363D;
+	width:100%;
+	height:200px;
+	margin-top:154px;
+	z-index:-1;
+}
+
+#wrapper {
+	background: transparent;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+#header {
+	background:transparent;
+  height:100px;
+  margin:0 auto;
+  margin-bottom: 0px;
+  padding:5px 0;
+  font-family:Montserrat, Arial, Sans-Serif;
+  font-size:14px;
+  font-weight:bold;
+	color:#468;
+}
+.header.left {
+	text-align:left;
+	padding:5px 0 0 5px;
+}
+.header.center {
+	background: url("../img/ego_anax_logo.png") center no-repeat;
+	height:90px;
+	width:150px;
+}
+.header.right {
+	text-align:right;
+	padding:5px 5px 0 0;
+}
+span.logging {
+	display:inline-block;
+	background:url("../img/symbols_24.png") 0px 0px no-repeat;
+	width:24px;
+	height:24px;
+	vertical-align:middle;
+}
+span.logging:hover {
+	background-position:-24px 0px;
+}
+span.tools {
+	display:inline-block;
+	background:url("../img/symbols_24.png") 0px -24px no-repeat;
+	width:24px;
+	height:24px;
+	vertical-align:middle;
+}
+span.tools:hover {
+	background-position:-24px -24px;
+}
+span.e-mail {
+	display:inline-block;
+	background:url("../img/symbols_24.png") 0px -48px no-repeat;
+	width:24px;
+	height:24px;
+	vertical-align:middle;
+}
+span.e-mail:hover {
+	background-position:-24px -48px;
+}
+span.multi {
+	display:inline-block;
+	background:url("../img/symbols_24.png") 0px -72px no-repeat;
+	width:24px;
+	height:24px;
+	vertical-align:middle;
+}
+span.multi:hover {
+	background-position:-24px -72px;
+}
+span.flag-sweden {
+	display:inline-block;
+	background:url("../img/flag_sweden.png") no-repeat;
+	width:48px;
+	height:30px;
+}
+	
+
+
+
+.sitetitle {
+  position: absolute;
+  top: -5px;
+  left: 110px;
+  font-size: 65px;
+  font-family: 'Playfair Display', serif; 
+  text-transform: uppercase; 
+  font-weight: 400; 
+}
+.siteslogan {
+  position: absolute;
+  top: 75px;
+  left: 110px;
+  color: #000;
+  font-family: 'Roboto Condensed', sans-serif; 
+  font-weight: 400; 
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+#main {
+	background:#FFF;
+	max-width:912px;
+	width:auto;
+  min-height: 600px;
+	margin:0 auto;
+	margin-top:50px;
+	border-radius: 8px 8px 0 0;
+	font-family: "Open Sans", Arial, Sans-Serif;
+	font-size:16px;
+	font-weight:normal;
+	color:#024;
+}
+
+#footer-space {
+	position:absolute;
+	background:#2E363D;
+	width:100%;
+	height:200px;
+	margin-top:-50px;
+	z-index:-1;
+}
+#footer {
+	background:transparent;
+	max-width:912px;
+	width:auto;
+  height:auto;
+  margin:0 auto;
+	padding-top:60px;
+	font-family: Montserrat, Arial, Sans-Serif;
+	font-size:14px;
+	color:#468;
+}
+.footer.left {
+	text-align:left;
+}
+.footer.center {
+	background: url("../img/ego_anax_logo_footer.png") center no-repeat;
+	height:90px;
+	width:150px;
+}
+.footer.right {
+	text-align:right;
+}
+#footer a {
+	color: #468;
+}
+#footer a:hover {
+	color: #8AC;
+}
+
+
+
+input, textarea, select {
+	background: #FFF;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-family: "Open Sans", Arial, Sans-Serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000;
+	box-sizing: border-box;
+	border: 1px solid #468;
+	resize: none;
+	cursor: pointer;
+}
+input[type="text"], input[type="password"], textarea {
+	cursor: text;
+}
+input[type="text"], input[type="password"] {
+	height: 28px;
+	line-height: 28px;
+	padding: 0 5px;
+}
+textarea {
+	padding: 5px 5px;
+	overflow: auto;
+}
+input[type="text"]:hover, input[type="password"]:hover, textarea:hover, select:hover,
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
+	border: 1px solid #8AC;
+	box-shadow: 0 0 4px #8AC;
+}
+select {
+	height: 30px;
+	line-height: 30px;
+	padding: 2px 2px 2px 5px;
+}
+select option {
+	padding: 2px 5px;
+	border-right:1px solid #468;
+}
+
+
+input[type="button"], input[type="submit"] {
+	background: #444 url("../img/ctrl_btn.png") 0px 0px repeat-x;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 10px 4px 10px;
+	font-weight: bold;
+	text-align: center;
+	color: #EEE;
+	box-shadow: 0 2px 2px #444;
+	cursor: pointer;
+}
+input[type="button"]:hover, input[type="submit"]:hover {
+	background-position: 0px -26px;
+	color: #CCC;
+}
+input[type="button"]:active, input[type="submit"]:active {
+	box-shadow: inset 0 0 3px #444;
+}
+input[type="checkbox"], input[type="radio"] {
+	margin-top: 7px;
+}
+
+img {
+	border: none;
+}
+h1, h2 {
+	margin-top: 5px;
+	color: #048;
+}
+h3 {
+	margin-top: 5px;
+	color: #048;
+}
+h4 {
+	margin-bottom: 0px;
+	font-style: italic;
+	color: #048;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover, a:visited {
+	text-decoration: underline;
+}
+hr {
+	color:#48C;
+}
+
+span.download-file {
+	display:inline-block;
+	background: transparent url("../img/symbols_24.png") 0px -96px no-repeat;
+	width: 24px;
+	height: 24px;
+	vertical-align:middle;
+}
+span.download-file:hover {
+	background-position: -24px -96px;
+}
+
+section {
+	padding:20px;
+}
+
+
+.left {
+	float:left;
+	width:33%;
+	height:100%;
+}
+.center {
+	height:100%;
+	margin:0 auto;
+}
+.right {
+	float:right;
+	width:33%;
+	height:100%;
+}
+
+
+.article-md {
+	background:transparent;
+  padding: 20px;
+  font-size: 16px;
+  color: #024;
+  text-align:justify;
+}
+.article-md a {
+  color: #48C;
+}
+.article-md img {
+  border:1px solid #468;
+  box-shadow:0 0 5px #468;
+}
+.article-md hr {
+	margin-bottom:25px;
+}
+.byline-md {
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 12px;
+  color: #024;
+  border-top: 5px dotted #468;
+  text-align:center;
+}
