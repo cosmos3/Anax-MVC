@@ -140,3 +140,5 @@ class CThemeBasic implements IThemeEngine, \Anax\DI\IInjectionAware
         $view->render();
     }
 }
+
+?>
