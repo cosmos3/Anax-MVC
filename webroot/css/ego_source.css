@@ -5,14 +5,13 @@
 	padding: 0;
 	margin: 0 0 22px 0;
 }
-
 .src-breadcrumb li {
 	padding: 0;
 	margin: 0;
 	display: inline;
 }
 .src-container {
-	max-height: 600px;
+	max-height: 500px;
 	border: 1px solid #888;
 	overflow: auto;
 }
@@ -62,11 +61,11 @@ ul.src-path-back li {
 	display: inline;
 }
 ul.src-path-back li a {
-	color:#48C;
+	color: #48C;
 }
 .src-file {
 	font-weight: bold;
 }
 .src-download a {
-  color: #48C;
+	color: #48C;
 }

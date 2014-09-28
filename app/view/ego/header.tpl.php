@@ -1,7 +1,7 @@
 <?php
 	echo "
 <div class='header left'>
-	<span class='flag-sweden'></span><br/><br/>
+	<span class='flag-sweden selected'></span><span class='flag-england'></span><br/><br/>
 	<a href='' title='Multi'><span class='multi'></span></a>
 
 </div>

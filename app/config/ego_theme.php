@@ -9,15 +9,9 @@
 					'region'=>"header",
 					'template'=>"ego/header",
 					'data'=>array(
-						'siteTitle'=>"Min EGO-sida i PHPMVC",
-						'siteTagline'=>"Här är en 'tagline' som försöker säga något."
+						'siteTitle'=>"",
+						'siteTagline'=>"... med ett stort självintresse!"
 						),
-					'sort'=>-1
-					),
-				array(
-					'region'=>"main",
-					'template'=>"ego/page",
-					'data'=>array(),
 					'sort'=>-1
 					),
 				array(
@@ -42,7 +36,8 @@
 				'title_append'=>" || EGO - ANAX (en liten webbmall)",
 				'stylesheets'=>array(
 					"css/ego_common.css",
-					"css/ego_navbar.css"
+					"css/ego_navbar.css",
+					"css/ego_ctrl.css"
 					),
 				'style'=>null,
 				'favicon'=>"favicon.ico",
@@ -51,7 +46,7 @@
 				'javascript_include'=>array(
 					"js/ego_common.js"
 					),
-				'google_analytics'=>null
+				'google_analytics'=>"UA-54672703-2"
 				)
 			);
 

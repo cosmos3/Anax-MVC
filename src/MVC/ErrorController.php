@@ -39,7 +39,7 @@ class ErrorController
         $this->di->theme->setTitle($title);
         $this->di->views->add('default/error', [
             'title' => $title,
-            'content' => $message,
+            'content' => $message." (ErrorController.php).",
             'details' => $this->di->flash->getMessage(),
         ]);
     }

@@ -183,43 +183,57 @@ namespace Mos\Source;
 			return $html;
 		}
 		
+		private function divColor($color) {
+			return " style='color:".$color."'";
+		}
 		// new 2014-09-10 combobox/<select> =============================
 		public function getPathFile() {
 			if (!$this->dir) {
 				return;
 			}
 			$cmbPathFile="
-				<form class='src-path-file' name='path' action='".$_SERVER['PHP_SELF']."' method='GET'>
-					Välj katalog eller fil: 
-					<select name='path' onchange='document.forms[0].submit();'>";
+<form class='src-path-file' name='path' action='".$_SERVER['PHP_SELF']."' method='GET'>
+	Välj katalog eller fil: 
+	<select name='path' onchange='document.forms[0].submit();'>";
 			$pathBack="
-				<div style='float:left;margin-left:20px;margin-top:2px;'>Katalog-väg:</div>
-				<ul class='src-path-back'>
-					<li><a href='?'>".basename($this->baseDir)."</a>/</li>";
+		<div style='float:left;margin-left:20px;margin-top:5px;'>Katalog-väg:
+		</div>
+		<div style='float:left;margin-top:4px;'>
+			<ul class='src-path-back'>
+				<li><a href='?'>".basename($this->baseDir)."</a>/</li>";
 			$cmbPathFile.="
-						<option value=''>".basename($this->baseDir)."</option>";
+					<option value=''".$this->divColor("#F0F").">".basename($this->baseDir)."</option>";
 			$path=null; 
 			foreach ($this->breadcrumb as $val) {
 				$path.="$val/";
 				$pathBack.="
-					<li><a href='?path=".$path."'>".$val."</a>/</li>";
+				<li><a href='?path=".$path."'>".$val."</a>/</li>";
 				$cmbPathFile.="
-						<option value='".$path."'".($path==($this->path)."/" && $this->file=="" ? " selected" :"").">".$path."</option>";
+					<option value='".$path."'".($path==($this->path)."/" && $this->file=="" ? " selected" :"").$this->divColor("#F00").">".$path."</option>";
 			}
 			$pathBack.="
-				</ul>";
+			</ul>
+		</div>";
 			foreach (glob($this->dir."/{*,.?*}", GLOB_MARK | GLOB_BRACE) as $val) {
 				if (in_array(basename($val), $this->ignore)) {
 					continue;
 				}
 				$file=basename($val).(is_dir($val) ? "/" : null);
+				
+				$color=substr($file, -1)=="/" ? $this->divColor("#F00") : "";
+				$imgArray=array('png', 'jpg', 'jpeg', 'gif', 'ico');
+				$ext=pathinfo(basename($file), PATHINFO_EXTENSION);
+				if (in_array($ext, $imgArray)) {
+					$color=$this->divColor("#00F");
+				}
+				
 				$path=(empty($this->path) ? null : $this->path."/").$file;
 				$cmbPathFile.="
-						<option value='".$path."'".($file==$this->file ? " selected" :"").">".$file."</option>";
+		<option value='".$path."'".($file==$this->file ? " selected" :"").$color.">".$file."</option>";
 			}
 			$cmbPathFile.="
-					</select>
-				</form>";
+	</select>
+</form>";
 			return $cmbPathFile.$pathBack;
 		}
 		// ===================================================================
@@ -323,12 +337,10 @@ namespace Mos\Source;
 			
 			// Display image if a valid image file
 			if(in_array($this->extension, $this->validImageExtensions)) {
-
-				$baseDir = !empty($this->options['base_dir']) 
-					? rtrim($this->options['base_dir'], '/') . '/' 
-					: null;
-				$this->content = "<div style='overflow:auto;'><img src='{$baseDir}{$this->path}/{$this->file}' alt='[image not found]'>".$baseDir.$this->path."/".$this->file."</div>";
-
+				$this->content = "<div style='overflow:auto;'><img src='{$this->path}/{$this->file}' alt='[image not found]'></div><br/>
+					Om bilden inte visas, så kan du ladda ner den till din dator - klicka på länken (disketten) ovan.
+					</p>
+				";
 			} 
 			
 			// Display file content and format for a syntax

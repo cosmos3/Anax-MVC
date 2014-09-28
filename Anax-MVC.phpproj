@@ -140,6 +140,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "app\\content\\calendar.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "app\\content\\ctrlTest.php"
     {
     "ProjRelPath" = "T"
@@ -196,14 +200,6 @@
     {
     "ProjRelPath" = "T"
     }
-    "app\\src\\Dice"
-    {
-    "ProjRelPath" = "T"
-    }
-    "app\\src\\Dice\\CDice.php"
-    {
-    "ProjRelPath" = "T"
-    }
     "app\\src\\Source"
     {
     "ProjRelPath" = "T"
@@ -240,19 +236,11 @@
     {
     "ProjRelPath" = "T"
     }
-    "app\\view\\dice"
-    {
-    "ProjRelPath" = "T"
-    }
-    "app\\view\\dice\\index.tpl.php"
-    {
-    "ProjRelPath" = "T"
-    }
     "app\\view\\ego"
     {
     "ProjRelPath" = "T"
     }
-    "app\\view\\ego\\calendar.tpl.php"
+    "app\\view\\ego\\404.tpl.php"
     {
     "ProjRelPath" = "T"
     }
@@ -272,10 +260,6 @@
     {
     "ProjRelPath" = "T"
     }
-    "app\\view\\ego\\source.tpl.php"
-    {
-    "ProjRelPath" = "T"
-    }
     "app\\view\\error"
     {
     "ProjRelPath" = "T"
@@ -285,26 +269,6 @@
     "ProjRelPath" = "T"
     }
     "app\\view\\error\\404.tpl.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "app\\view\\welcome"
-    {
-    "ProjRelPath" = "T"
-    }
-    "app\\view\\welcome\\footer.tpl.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "app\\view\\welcome\\header.tpl.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "app\\view\\welcome\\hello_world.tpl.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "app\\view\\welcome\\index.tpl.php"
     {
     "ProjRelPath" = "T"
     }
@@ -600,11 +564,15 @@
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\404.php"
+    "webroot\\.htaccess (BTH)"
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\cform.php"
+    "webroot\\.htaccess (cosmos3.se)"
+    {
+    "ProjRelPath" = "T"
+    }
+    "webroot\\404.php"
     {
     "ProjRelPath" = "T"
     }
@@ -620,10 +588,6 @@
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\css\\dice.css"
-    {
-    "ProjRelPath" = "T"
-    }
     "webroot\\css\\ego_calendar.css"
     {
     "ProjRelPath" = "T"
@@ -632,15 +596,15 @@
     {
     "ProjRelPath" = "T"
     }
+    "webroot\\css\\ego_ctrl.css"
+    {
+    "ProjRelPath" = "T"
+    }
     "webroot\\css\\ego_navbar.css"
     {
     "ProjRelPath" = "T"
     }
     "webroot\\css\\ego_source.css"
-    {
-    "ProjRelPath" = "T"
-    }
-    "webroot\\css\\figure.css"
     {
     "ProjRelPath" = "T"
     }
@@ -656,47 +620,11 @@
     {
     "ProjRelPath" = "T"
     }
-    "webroot\\css\\form.css"
-    {
-    "ProjRelPath" = "T"
-    }
-    "webroot\\css\\navbar.css"
-    {
-    "ProjRelPath" = "T"
-    }
-    "webroot\\css\\slideshow.css"
-    {
-    "ProjRelPath" = "T"
-    }
-    "webroot\\css\\source.css"
-    {
-    "ProjRelPath" = "T"
-    }
-    "webroot\\css\\style.css"
-    {
-    "ProjRelPath" = "T"
-    }
-    "webroot\\dice.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "webroot\\dice_app.php"
-    {
-    "ProjRelPath" = "T"
-    }
     "webroot\\error.php"
     {
     "ProjRelPath" = "T"
     }
     "webroot\\favicon.ico"
-    {
-    "ProjRelPath" = "T"
-    }
-    "webroot\\hello.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "webroot\\hello_view.php"
     {
     "ProjRelPath" = "T"
     }
@@ -865,10 +793,6 @@
     "ProjRelPath" = "T"
     }
     "webroot\\sitemap.xml"
-    {
-    "ProjRelPath" = "T"
-    }
-    "webroot\\slideshow.php"
     {
     "ProjRelPath" = "T"
     }

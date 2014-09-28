@@ -1,0 +1,69 @@
+
+input, textarea, select {
+	background: #FFF;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-family: "Open Sans" , Arial, Sans-Serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000;
+	box-sizing: border-box;
+	border: none;
+	resize: none;
+	cursor: pointer;
+}
+input[type="text"], input[type="password"], textarea {
+	border: 1px solid #468;
+	cursor: text;
+}
+input[type="text"], input[type="password"] {
+	height: 28px;
+	line-height: 28px;
+	padding: 0 5px;
+}
+textarea {
+	padding: 5px 5px;
+	overflow: auto;
+}
+input[type="text"]:hover, input[type="password"]:hover, textarea:hover, select:hover, input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
+	border: 1px solid #8AC;
+	box-shadow: 0 0 4px #8AC;
+}
+select {
+	height: 30px;
+	line-height: 30px;
+	padding: 2px 2px 2px 5px;
+	border: 1px solid #468;
+}
+select option {
+	padding: 2px 5px;
+	border-right: 1px solid #468;
+}
+
+input[type="button"], input[type="submit"] {
+	background: #468;
+	height: 30px;
+	padding: 0 15px 3px 15px;
+	text-align: center;
+	font-weight: bold;
+	color: #FFF;
+}
+input[type="button"]:hover, input[type="submit"]:hover {
+	background: #68A;
+}
+input[type="button"]:active, input[type="submit"]:active {
+	box-shadow: inset 0 0 0 1px #FFF;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	margin: 8px 5px 0 0;
+}
+input[type="checkbox"] + label, input[type="radio"] + label {
+	color: #024;
+	cursor: pointer;
+}
+input[type="checkbox"]:hover + label, input[type="radio"]:hover + label {
+	color: #468;
+}
+

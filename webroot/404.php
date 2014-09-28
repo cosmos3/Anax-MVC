@@ -10,8 +10,18 @@ require __DIR__.'/config_with_app.php';
 
 // Home route
 $app->router->add('', function () use ($app) {
-    throw new \Anax\Exception\NotFoundException();
-});
+			throw new \Anax\Exception\NotFoundException();
+			$title =$codes[$code];
+			$app->response->setHeader($code);
+			$app->theme->setTitle($title);
+			$app->views->add('ego/400', array(
+						'title' => $title,
+						'content' => $message." (404.php).",
+						'details' => $app->flash->getMessage()
+						)
+					);
+			});
+			
 
 
 

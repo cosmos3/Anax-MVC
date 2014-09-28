@@ -1,15 +1,6 @@
-<article class="article1">
-
 <?php
-	if (isset($content)) {
-		echo $content;
-	}
+	echo "
+<article class='article-page'>
+	<h1>".$title."</h1>".(isset($content) ? $content : "")."
+</article>";
 ?>
-
-    <?php if(isset($byline)) : ?>
-		<footer class="byline">
-		<?=$byline?>
-		</footer>
-    <?php endif; ?>
- 
-</article> 

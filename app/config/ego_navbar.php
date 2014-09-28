@@ -66,6 +66,13 @@
 					'url'=>"calendar",
 					'title'=>"Håll koll på tiden..."
 					),
+				/*
+				'error404'=>array(
+					'text'=>"ERROR 404",
+					'url'=>"var_e_min_sida_?",
+					'title'=>"Snabbtest av Error 404"
+					),
+					*/
 				'ctrlTest'=>array(
 					'text'=>"CTRL-TEST",
 					'url'=>"ctrlTest",

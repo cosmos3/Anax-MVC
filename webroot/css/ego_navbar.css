@@ -24,8 +24,8 @@
 	display: inline-block;
 	margin: 0;
 	padding: 0;
-	border-left: 1px solid #4F6880; /* #37556B;*/
-	border-right: 1px solid #00080F; /*#1C262B;*/
+	border-left: 1px solid #4F6880;
+	border-right: 1px solid #00080F;
 }
 #navbar a {
 	display: block;
@@ -35,10 +35,10 @@
 	color: #FFF;
 	white-space: nowrap;
 }
-#navbar li:hover, #navbar li li:hover {
+#navbar li:hover {
 	background: #31526B;
 }
-#navbar li.selected a, #navbar li.selected-parent {
+#navbar li.selected, #navbar li.selected-parent {
 	background: #088CFF;
 }
 #navbar ul ul {
@@ -53,7 +53,7 @@
 	box-shadow: 0 3px 6px #444;
 	z-index: 9;
 }
-#navbar li li, #navbar li li.selected {
+#navbar li li {
 	width: 100%;
 }
 #navbar li:hover ul {

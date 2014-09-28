@@ -52,12 +52,13 @@ class CNavbar
               list($submenu, $selectedParent) = $createMenu($item['submenu']['items'], $callback);
               $selectedParent = $selectedParent ? " selected-parent" : null;
             }
-
+						
             // Check if the current menuitem is selected
-            $selected = $callback($item['url']) ? 'selected' : null;
-            if ($selected) {
-              $hasItemIsSelected = true;
-            }
+							$selected = $callback($item['url']) ? 'selected' : null;
+							if ($selected) {
+								$hasItemIsSelected = true;
+							}
+						
 
             $selected = ($selected || $selectedParent) ? " class='${selected}{$selectedParent}' " : null;      
             $url = $createUrl($item['url']);
@@ -79,3 +80,6 @@ class CNavbar
         return "\n<{$wrapper}{$id}{$class}>{$html}</{$wrapper}>\n";
     }
 }
+
+
+?>

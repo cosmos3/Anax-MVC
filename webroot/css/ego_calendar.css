@@ -5,7 +5,8 @@
 	height: auto;
 	margin: 0 auto;
 	padding: 0;
-	border: 1px solid #AAA;
+	border-top: 1px solid #AAA;
+	border-bottom: 1px solid #AAA;
 	box-shadow: 0 6px 6px -3px #444;
 	font-family: Arial, Sans-Serif;
 	font-size: 16px;
@@ -108,7 +109,7 @@ table.t-calendar div.day {
 	border: 1px solid #444;
 }
 table.t-calendar div.selected {
-	border: 1px solid #C44;
+	border: 1px solid #CC4;
 }
 table.t-calendar a {
 	text-decoration: none;
@@ -117,10 +118,10 @@ table.t-calendar td.off-month {
 	color: #888;
 	font-weight: normal;
 	text-align: center;
-}	
+}
 table.t-calendar td.off-month.red-day {
 	color: #B20;
-}	
+}
 
 #calendar .snap {
 	background: transparent url("../img/calendar/calendar_snap.png") repeat-x;

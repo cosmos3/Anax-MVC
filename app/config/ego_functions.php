@@ -1,21 +1,5 @@
 <?php
 
-// global variables
-
-	$EGO_KMOMS=array(
-		"Redovisningar",
-		"Kmom01: PHP-baserade och MVC-inspirerade ramverk",
-		"Kmom02: Kontroller och Modeller",
-		"Kmom03: Bygg ett eget tema",
-		"Kmom04: Databaser, ORM och scaffolding",
-		"Kmom05: Bygg ut ramverket",
-		"Kmom06: Verktyg och Continuous integration",
-		"Kmom07/10: Projekt/Examination"
-		);
-	
-	
-
-		
 	function txtPageTitle($text) {
 		return "<h3>".$text."</h3>";
 	}
@@ -29,7 +13,7 @@
 		return html_entity_decode($url);
 	}
 	
-	function readPost($var, $false) {
+	function readPOST($var, $false) {
 		return cleanTxt(isset($_POST[$var]) ? $_POST[$var] : $false);
 	}
 	

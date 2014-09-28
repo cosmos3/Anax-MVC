@@ -7,7 +7,6 @@
 	$email_message.="\nREMOTE_PORT: ".$_SERVER["REMOTE_PORT"];
 	$headers="Content-type: text/plain; charset=UTF-8\r\n"."From: server@cosmos3.se\r\nReply-To: server@cosmos3.se\r\nX.Mailer: PHP/".phpversion();
 	mail($email_to, $email_subject, $email_message, $headers);
-//	header("location:kmom01/webroot/index.php/ego_anax");
 	header("location:webroot/index.php/ego_anax");
 	exit();
 ?>

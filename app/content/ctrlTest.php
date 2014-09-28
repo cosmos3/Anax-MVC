@@ -1,5 +1,4 @@
 <section>
-	<h1>Test av kontroller</h1>
 	<p>
 	<input type='text' name='' value='' size='24'/>
 	<br/><br/>
@@ -7,13 +6,15 @@
 	<textarea name='' rows='6' cols='51'></textarea>
 	<br/><br/>
 	
-	<input type='text' name='' value='' size='12' style='float:left;'/>
-	&nbsp;<input type='checkbox' name='' value=''/> Checkbox
+	<input type='text' name='' value='' size='12' style='float:left; margin-right:10px;'/>
+	<input type='checkbox' id='chk-1' name=''/><label for='chk-1'>Checkbox</label>
+
 	<br/><br/>
-	
-	<input type='radio' name='r' checked /> Radio 1
-	<input type='radio' name='r' checked /> Radio 2
-	<br/><br/>						
+		
+	<input type='text' name='' value='' size='12' style='float:left; margin-right:10px;'/>
+	<input type='radio' id='rb-1' name='rb'/><label for='rb-1'>Radio 1</label>
+	<input type='radio' id='rb-2' name='rb'/><label for='rb-2'>Radio 2</label>
+	<br/><br/>
 	
 	<input type='text' name='' value='' size='12' style='float:left;'/>
 	&nbsp;<input type='submit' name='' value='Submit'/>
